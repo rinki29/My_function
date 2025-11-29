@@ -12,4 +12,20 @@ return $value;
 
 $username = 'rinkiMishra';
 echo stringreverce($username);
+
+//palidrom function
+
+function ispalidrom($value){
+
+  $namereverce = stringreverce($value);
+  if($value == $namereverce){
+echo  'it is palidrom';
+  }else{
+    echo  'it is not palidrome';
+  }
+
+}
+
+$username = 'mam';
+echo ispalidrom($username);
 ?>
