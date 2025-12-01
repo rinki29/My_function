@@ -1,5 +1,5 @@
 <?php
-//string reverce function my fucntion
+
 
 function stringreverce($name){
     $value = '';
